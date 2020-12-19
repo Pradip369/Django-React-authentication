@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+.mylink {
+  color: rgb(255, 0, 0) !important;
+  text-decoration: none !important;
+}
+.navbar__btn {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.navbar__btn:hover {
+  color: rgb(255, 0, 149);
+  text-decoration: none;
+}
+
+.register__form,
+.register__already,
+.resendEmail_form,
+.activate_Account_form,
+.login_form,
+.login__createacc,
+.myProfile__layout,
+.changeUsername_form,
+.changepassword_form,
+.resetPassEmail_form,
+.resetPassword_form {
+  background-color: hsl(0, 0%, 99%);
+  margin-top: 15px;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: 0.1px 0.1px 6px rgb(119, 114, 114);
+}
